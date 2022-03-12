@@ -14,6 +14,9 @@
 		84D598E027DBF9660055EF82 /* SubManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D598DF27DBF9660055EF82 /* SubManTests.swift */; };
 		84D598EA27DBF9660055EF82 /* SubManUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D598E927DBF9660055EF82 /* SubManUITests.swift */; };
 		84D598EC27DBF9660055EF82 /* SubManUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D598EB27DBF9660055EF82 /* SubManUITestsLaunchTests.swift */; };
+		84D598FA27DC11670055EF82 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D598F927DC11670055EF82 /* ColorExtension.swift */; };
+		84D598FE27DC13B80055EF82 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D598FD27DC13B80055EF82 /* SignInView.swift */; };
+		84D5990027DC13DD0055EF82 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D598FF27DC13DD0055EF82 /* FontExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		84D598E527DBF9660055EF82 /* SubManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D598E927DBF9660055EF82 /* SubManUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubManUITests.swift; sourceTree = "<group>"; };
 		84D598EB27DBF9660055EF82 /* SubManUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubManUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84D598F927DC11670055EF82 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		84D598FD27DC13B80055EF82 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		84D598FF27DC13DD0055EF82 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,12 @@
 		84D598CD27DBF9630055EF82 /* SubMan */ = {
 			isa = PBXGroup;
 			children = (
+				84D598F827DC11530055EF82 /* Extensions */,
 				84D598CE27DBF9630055EF82 /* SubManApp.swift */,
 				84D598D027DBF9630055EF82 /* ContentView.swift */,
 				84D598D227DBF9650055EF82 /* Assets.xcassets */,
 				84D598D427DBF9650055EF82 /* Preview Content */,
+				84D598FD27DC13B80055EF82 /* SignInView.swift */,
 			);
 			path = SubMan;
 			sourceTree = "<group>";
@@ -125,6 +133,15 @@
 				84D598EB27DBF9660055EF82 /* SubManUITestsLaunchTests.swift */,
 			);
 			path = SubManUITests;
+			sourceTree = "<group>";
+		};
+		84D598F827DC11530055EF82 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84D598F927DC11670055EF82 /* ColorExtension.swift */,
+				84D598FF27DC13DD0055EF82 /* FontExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D5990027DC13DD0055EF82 /* FontExtension.swift in Sources */,
+				84D598FA27DC11670055EF82 /* ColorExtension.swift in Sources */,
 				84D598D127DBF9630055EF82 /* ContentView.swift in Sources */,
+				84D598FE27DC13B80055EF82 /* SignInView.swift in Sources */,
 				84D598CF27DBF9630055EF82 /* SubManApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
